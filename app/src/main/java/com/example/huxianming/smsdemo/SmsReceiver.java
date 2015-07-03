@@ -26,13 +26,6 @@ public class SmsReceiver extends BroadcastReceiver {
         intent1.putExtra("from",from);
         intent1.putExtra("content",content);
         context.startActivity(intent1);
-//        //产生一个Toast
-        //Toast toast = Toast.makeText(context,"短信内容: " + smsMessage[0].getMessageBody(), Toast.LENGTH_LONG);
-//        //设置toast显示的位置
-//        //toast.setGravity(Gravity.TOP|Gravity.LEFT, 0, 200);
-//        //显示该Toast
-       //toast.show();
-        //abortBroadcast();
     }
 
 }
